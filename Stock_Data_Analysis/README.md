@@ -40,7 +40,7 @@ The output of the `make_graph` function is saved and included in this README for
 ### How to Run
 1. Clone the repository:
 ````bash
-git clone [https://github.com/yourusername/data-analysis-project.git]
+git clone [https://github.com/zahra-ahmadbeigloo/Data-analysis-projects]
 ````
 2. Navigate to the project directory:
 ````bash
