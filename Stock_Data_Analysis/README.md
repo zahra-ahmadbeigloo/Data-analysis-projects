@@ -36,7 +36,7 @@ The output of the `make_graph` function is saved and included in this README for
 ### GameStop Graph 
 ![Stock and Revenue Graph](GameStop_graph.png)
 
-## GameStop Stock Analysis
+## Stock Data Analysis
 ### How to Run
 1. Clone the repository:
 ````bash
