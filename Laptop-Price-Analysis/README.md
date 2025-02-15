@@ -30,7 +30,7 @@ The dataset used in this analysis is stored in a CSV file named `laptop_pricing_
 ## How to Run
 1. Clone the repository:
 ````bash
-git clone [https://github.com/yourusername/Data_analysis_projects.git] 
+git clone [https://github.com/zahra-ahmadbeigloo/Data-analysis-projects] 
 ````
 2. Navigate to the project directory:
 ````bash
