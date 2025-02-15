@@ -27,4 +27,20 @@ The dataset used in this analysis is stored in a CSV file named `auto.csv`. It c
 - **Model Building**: Linear regression and Ridge regression models are built to predict car prices.
 - **Model Evaluation**: The models are evaluated using metrics like R^2 score and mean squared error.
 
-Car_Price_Analysis
+## How to Run
+1. Clone the repository:
+````bash
+git clone [https://github.com/zahra-ahmadbeigloo/Data-analysis-projects]
+````
+2. Navigate to the project directory:
+````bash
+cd Data_analysis_projects/Car_Price_Analysis
+````
+3. Open the Jupyter Notebook:
+````bash
+jupyter notebook Car-Price.ipynb
+````
+4. Run all cells to execute the code within the notebook.
+
+## Contact
+For any queries, please contact [zaharaahmadbeigloo@gmail.com]
