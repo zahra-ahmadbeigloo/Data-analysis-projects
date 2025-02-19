@@ -10,6 +10,7 @@ This repository contains various data analysis projects. Each project aims to pr
 5. Insurance Cost Analysis
 6. Laptop Price Analysis
 7. Membership Management
+8. House Sales KingCounty
 
 ## Requirements
 Python 3.7 or higher
