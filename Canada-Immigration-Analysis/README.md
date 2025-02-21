@@ -9,8 +9,27 @@ The dataset is sourced from [IBM Developer Skills Network](https://cf-courses-da
 To run this project, you need to have Python installed along with the following libraries:
 `pandas, numpy, seaborn, matplotlib`
 
-## Output
-[https://github.com/zahra-ahmadbeigloo/Data-analysis-projects/blob/main/Canada-Immigration-Analysis/newplot1.png]
+## Output of treemap
+````python
+fig = px.treemap(df,
+                path= ["Continent", "Region"],
+                values= "Total",
+                title= "Immigrants from all over the world")
+fig.show()
+````
+
+![Immigrant from all over the world](newplot1.png)
+
+````python
+fig = px.treemap(df_asia,
+                 path=["Region", "index"],
+                 values="Total",
+                 title="Asian Immigrants")
+
+fig.show()
+````
+![Immigrant from Asia](newplot2.png)
+
 
 ## Conclusion
 This project provides insights into immigration trends to Canada, revealing patterns and changes over time. The visualizations help in understanding the data better and can be used for further analysis.
