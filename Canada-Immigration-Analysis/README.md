@@ -7,15 +7,8 @@ The dataset is sourced from [IBM Developer Skills Network](https://cf-courses-da
 
 ## Installation
 To run this project, you need to have Python installed along with the following libraries:
-- pandas
-- numpy
-- seaborn
-- matplotlib
+`pandas, numpy, seaborn, matplotlib`
 
-You can install these libraries using pip:
-````bash
-pip install pandas numpy seaborn matplotlib
-````
 
 ## Conclusion
 This project provides insights into immigration trends to Canada, revealing patterns and changes over time. The visualizations help in understanding the data better and can be used for further analysis.
