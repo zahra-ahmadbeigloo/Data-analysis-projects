@@ -5,7 +5,7 @@ This project is designed to analyze laptop pricing data using various data scien
 ## Dependencies
 Ensure you have the following packages installed:
 - pandas
-- numpy
+- numpy 
 - seaborn
 - matplotlib
 - tqdm
