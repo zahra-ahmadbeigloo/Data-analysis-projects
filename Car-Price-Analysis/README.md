@@ -10,7 +10,7 @@ Ensure you have the following packages installed:
 - matplotlib
 - tqdm
 - scipy
-- scikit-learn
+- scikit-learn 
 
 You can install them using:
 ````bash
