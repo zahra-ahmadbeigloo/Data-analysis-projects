@@ -1,4 +1,4 @@
-# 🚗 CO₂ Emissions Prediction using Linear & Polynomial Regression
+# CO₂ Emissions Prediction using Linear & Polynomial Regression
 
 This project explores the relationships between vehicle engine attributes (e.g., engine size, fuel consumption) and CO₂ emissions using various regression techniques. The dataset used is from Natural Resources Canada (NRCAN), and includes features such as engine size, cylinders, fuel consumption (city, highway, combined), and CO₂ emissions.
 
