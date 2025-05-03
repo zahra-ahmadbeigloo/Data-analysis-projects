@@ -24,6 +24,7 @@ This project utilizes **Folium** to visualize geographical data, including crime
 <img src="Plots/map3.png" alt="Map 3" width="600"/>
 - Global Immigration to Canada (Choropleth Map)
 <img src="Plots/map5.png" alt="Map 5" width="600"/>
+
 - Marker Clustering for Crime Points
 ![Animated Plot](Plots/map4.gif)
 
