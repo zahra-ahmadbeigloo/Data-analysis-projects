@@ -1,33 +1,35 @@
-### Interactive Laptop Price Analysis Dashboard built with:  
+### Interactive Laptop Price Analysis Dashboard built with:
 - **Python** for backend logic and data manipulation  
-- **Pandas** & **NumPy** for efficient data preprocessing and statistical calculations  
-- **Matplotlib** & **Seaborn** for insightful visualizations  
+- **Pandas & NumPy** for efficient data preprocessing and statistical calculations  
+- **Matplotlib & Seaborn** for insightful visualizations  
 - **Scikit-Learn** for predictive modeling and regression analysis  
-- **PolynomialFeatures** & **StandardScaler** for feature engineering  
+- **PolynomialFeatures & StandardScaler** for feature engineering  
+- **OneHotEncoder & MinMaxScaler** for categorical encoding and normalization  
 
 ---
+## Laptop Price Analysis 
 
-# Laptop Price Analysis 
-
-This project explores **laptop pricing trends**, examining factors that influence price variations, such as **CPU frequency, RAM size, GPU type, screen features, and weight**. It also applies regression models to predict laptop prices based on technical specifications.  
+This project examines **laptop pricing trends**, exploring how various specifications—including **CPU frequency, RAM size, GPU type, screen size, storage type, and weight**—impact price. Additionally, machine learning models predict laptop costs based on technical specifications.  
 
 ## Key Insights: 
-- RAM size is the strongest predictor of price, showing a strong positive correlation.  
-- Higher CPU frequency contributes to increased laptop cost, though its impact varies across models.
-- Screen size and weight have relatively weak correlations with price, indicating other factors drive cost more significantly.  
-- Polynomial regression improves price prediction accuracy, outperforming simple linear models.  
+- RAM size strongly correlates with laptop price, suggesting memory size is a key pricing factor.  
+- CPU frequency and core count moderately impact laptop cost, but vary across categories.  
+- Storage capacity contributes significantly, with SSD size positively affecting prices.  
+- Weight and screen type have minimal correlation with price, reinforcing that portability isn’t a primary driver of cost.  
+- Polynomial regression provides better predictions compared to simple linear models, yielding improved accuracy in estimating laptop prices.  
 
 ---
 
-## Visualization
+## Visualization Gallery 
 
-- Laptop Price by RAM Size
+- Laptop Price vs. RAM Size
 - CPU Frequency vs. Laptop Price
-- Distribution of Laptop Prices Across Categories
-- Predictive Model: Regression Analysis for Price Estimation
+- Impact of Storage (SSD) on Price
+- Predictive Model: Regression Analysis for Price Estimation**  
+
 ---
 
-## Dependencies
+## Dependencies  
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn tqdm
