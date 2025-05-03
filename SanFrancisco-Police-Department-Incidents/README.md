@@ -21,9 +21,12 @@ This project utilizes **Folium** to visualize geographical data, including crime
 
 ## Visualization Gallery
 - Crime Distribution in San Francisco (CircleMarkers)
-[!map 1](/Plots/map1.png)  
-- Marker Clustering for Crime Points 
+<img src="Plots/map3.png" alt="Map 3" width="600"/>
 - Global Immigration to Canada (Choropleth Map)
+<img src="Plots/map5.png" alt="Map 5" width="600"/>
+- Marker Clustering for Crime Points
+![Animated Plot](Plots/map4.gif)
+
 
 ---
 
