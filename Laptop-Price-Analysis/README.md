@@ -1,46 +1,41 @@
-# Laptop Price Analysis
-## Overview
-This project is designed to analyze laptop pricing data using various data science and machine learning techniques. I use libraries such as `pandas`, `numpy`, `seaborn`, `matplotlib`, `scipy`, and `sklearn` to preprocess the data, perform exploratory data analysis (EDA), and build predictive models.
+### Interactive Laptop Price Analysis Dashboard built with:  
+- **Python** for backend logic and data manipulation  
+- **Pandas** & **NumPy** for efficient data preprocessing and statistical calculations  
+- **Matplotlib** & **Seaborn** for insightful visualizations  
+- **Scikit-Learn** for predictive modeling and regression analysis  
+- **PolynomialFeatures** & **StandardScaler** for feature engineering  
+
+---
+
+# Laptop Price Analysis 
+
+This project explores **laptop pricing trends**, examining factors that influence price variations, such as **CPU frequency, RAM size, GPU type, screen features, and weight**. It also applies regression models to predict laptop prices based on technical specifications.  
+
+## Key Insights: 
+- RAM size is the strongest predictor of price, showing a strong positive correlation.  
+- Higher CPU frequency contributes to increased laptop cost, though its impact varies across models.
+- Screen size and weight have relatively weak correlations with price, indicating other factors drive cost more significantly.  
+- Polynomial regression improves price prediction accuracy, outperforming simple linear models.  
+
+---
+
+## Visualization
+
+- Laptop Price by RAM Size
+- CPU Frequency vs. Laptop Price
+- Distribution of Laptop Prices Across Categories
+- Predictive Model: Regression Analysis for Price Estimation
+---
 
 ## Dependencies
-Ensure you have the following packages installed:
-- pandas
-- numpy 
-- seaborn
-- matplotlib
-- tqdm
-- scipy
-- scikit-learn
 
-You can install them using:
-````bash
-pip install pandas numpy seaborn matplotlib tqdm scipy scikit-learn
-````
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn tqdm
+```
 
-## Data
-The dataset used in this analysis is stored in a CSV file named `laptop_pricing_dataset_base.csv`. It contains information about laptop characteristics and their prices.
+---
 
-## Code Structure
-- **Data Preprocessing**: The code loads the dataset, handles missing values, and scales numeric features.
-- **Exploratory Data Analysis (EDA)**: Various visualizations are created to understand the relationships between features and the target variable (Price).
-- **Feature Engineering**: Binning and dummy variable creation are performed.
-- **Model Building**: Linear regression and Ridge regression models are built to predict laptop prices.
-- **Model Evaluation**: The models are evaluated using metrics like R^2 score and mean squared error.
+## License
 
-## How to Run
-1. Clone the repository:
-````bash
-git clone [https://github.com/zahra-ahmadbeigloo/Data-analysis-projects] 
-````
-2. Navigate to the project directory:
-````bash
-cd Data_analysis_projects/Laptop_Price_Analysis
-````
-3. Open the Jupyter Notebook:
-````bash
-jupyter notebook Laptop-Price-Analysis.ipynb
-````
-4. Run all cells to execute the code within the notebook.
+This project is licensed under the MIT License.
 
-## Contact
-For any queries, please contact [zaharaahmadbeigloo@gmail.com]
