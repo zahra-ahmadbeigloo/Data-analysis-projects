@@ -11,21 +11,17 @@
 ---
 # Airline Performance
 
-This project, part of the **Data-Analysis-Projects** repository, explores airline performance using data visualization and statistical analysis. The notebook **Airline-Performance.ipynb** includes **19 plots** (18 static, 1 animated) to help uncover patterns and insights in airline operations.
+This interactive dashboard provides a comprehensive exploration of **U.S. airline performance** using real-world flight data. Through dynamic visualizations and user-driven inputs, it uncovers insights into:
 
-Since GitHub does not render plots from notebooks by default, screenshots and a GIF have been added for clarity.
+- **Flight Delays & Cancellations**: Analyze average delay times by month, carrier, and delay type (Carrier, NAS, Weather, Security, Late Aircraft).
 
----
+- **Airline & Airport Performance Trends**: View performance metrics such as total flights per airline and destination states.
 
-## Project Overview
+- **Passenger Traffic Over Time**: Examine how flight volumes and delay patterns change across different months and years.
 
-This analysis covers:
+- **Weather & Other Delay Factors**: Isolate specific causes of delays to understand how external conditions (like weather or airspace issues) impact operations.
 
-- Flight delays and cancellations
-- Airline and airport performance trends
-- Passenger traffic over time
-- Weather impact on flights
-- Animated hourly flight behavior
+- **Animated Flight Behavior by Hour**: Visualize how flight traffic fluctuates hour by hour across the U.S. airspace with an engaging animated plot.
 
 ---
 
