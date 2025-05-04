@@ -1,55 +1,74 @@
+### Stock Data Analysis & Visualization Dashboard built with:
+
+- **Python** for backend logic and financial data processing
+- **Plotly**, **matplotlib**, and **mplfinance** for compelling stock and revenue visualizations
+- **BeautifulSoup** & **Requests** for web scraping financial revenue data
+- **yFinance** for seamless access to historical and real-time market data
+- **Pandas** for efficient data manipulation and transformation
+
+---
 # Stock Data Analysis
-## Overview
-This project is designed to analyze historical stock data and revenue information for companies like Tesla and GameStop. I use various libraries including `yfinance`, `pandas`, `requests`, `BeautifulSoup`, `plotly`, `mplfinance`, and `matplotlib` to fetch data, process it, and visualize it.
+## Project Overview
 
-## Dependencies
-Make sure you have the following packages installed:
-- yfinance
-- pandas
-- requests
-- BeautifulSoup
-- plotly
-- mplfinance
-- matplotlib
+This project focuses on extracting and visualizing stock and revenue data for two prominent companies: **Tesla (TSLA)** and **GameStop (GME)**. It presents trends in share prices, revenue, and trading volume using multiple interactive and static plots. The project uses a combination of APIs, scraping, and financial data visualization libraries to present an insightful stock analysis dashboard.
 
-You can install them using:  
-`pip install yfinance pandas requests beautifulsoup4 plotly mplfinance matplotlib`
+---
 
-## Code Structure
-- **Fetch Data**: I use the `yfinance` library to fetch historical stock data for Tesla and GameStop.
-- **Process Data**: I process the fetched data using `pandas` and `BeautifulSoup`.
-- **Visualization**: I use `plotly`, `mplfinance`, and `matplotlib` to create various visualizations, such as candlestick charts and bar graphs.
+## Key Features
 
-## Functions
-### make_graph
-````python
-def make_graph(stock_data, revenue_data, stock):
-    # Code to create graphs
-````
-This function creates subplots showing historical share prices and revenue.
+* Real-time and historical stock data fetching with **yFinance**
+* Revenue data scraping with **BeautifulSoup**
+* Interactive dual-axis plots of **stock price vs. revenue**
+* Candlestick charts to show daily open-high-low-close patterns
+* Year-wise trend lines for closing prices (2022 & 2023)
+* Volume bar chart for GameStop over the last 6 months
 
-## Visualizations
-The output of the `make_graph` function is saved and included in this README for reference.
-### Tesla Graph 
-![Stock and Revenue Graph](Tesla_graph.png)
+---
 
-### GameStop Graph 
-![Stock and Revenue Graph](GameStop_graph.png)
+## Workflow Summary
 
-## Stock Data Analysis
-### How to Run
-1. Clone the repository:
-````bash
-git clone [https://github.com/zahra-ahmadbeigloo/Data-analysis-projects]
-````
-2. Navigate to the project directory:
-````bash
-cd Data-analysis-project/Stock_Data_Analysis
-````
-3. Run the script:
-````bash
-jupyter notebook Stock_Data_Analysis.ipynb
-````
+1. **Import Libraries**
 
-## Contact
-For any queries, please contact [zahraahmadbeigloo@gmail.com].
+   * yFinance, Pandas, Plotly, matplotlib, mplfinance, BeautifulSoup
+
+2. **Fetch Stock Data**
+
+   * Tesla and GameStop historical data via `yfinance.Ticker().history()`
+
+3. **Scrape Revenue Data**
+
+   * Tesla revenue from HTML tables using BeautifulSoup
+   * GameStop revenue using `pandas.read_html()`
+
+4. **Clean and Transform Data**
+
+   * Remove nulls, unwanted characters (`$`, `,`, `|`)
+   * Convert dates and revenue to appropriate formats
+
+5. **Visualizations**
+
+   * Dual-axis chart (Price & Revenue) using Plotly Subplots
+   * Candlestick chart of Tesla 2024 via `mplfinance`
+   * Line plot of Tesla Closing Prices (2022, 2023)
+   * GameStop Volume Bar Chart for the last 6 months
+   * `make_graph()` function for reusable plotting logic
+     
+   **Tesla**
+   ![Tesla](Plots/plot1.gif)
+   **GameStop**
+   ![GameStop](Plots/plot2.gif)
+
+---
+
+## Insights Delivered
+
+* Tesla shows steady revenue and stock growth till mid-2021
+* GME’s stock volume surged in specific months, likely due to meme stock activity
+* Revenue patterns of both companies highlight different business models: Tesla (scaling) vs GameStop (fluctuating retail)
+
+---
+
+### 🧠 Credits
+
+Built as part of a stock data exploration project inspired by financial visualization best practices.
+
